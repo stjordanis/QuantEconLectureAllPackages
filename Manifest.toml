@@ -91,6 +91,12 @@ git-tree-sha1 = "bdaf1b7ecf8eb6fb3843a1b0d3fccc5f727a49fd"
 uuid = "a9c8d775-2e2e-55fc-8582-045d282d599e"
 version = "0.1.0"
 
+[[CSV]]
+deps = ["CategoricalArrays", "DataFrames", "DataStreams", "Dates", "Mmap", "Parsers", "Profile", "Random", "Tables", "Test", "Unicode", "WeakRefStrings"]
+git-tree-sha1 = "6dd974f0da3adb8b610cbbba5c95f5efbfa7a4df"
+uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+version = "0.4.2"
+
 [[CSVFiles]]
 deps = ["DataValues", "FileIO", "HTTP", "IterableTables", "IteratorInterfaceExtensions", "TableShowUtils", "TableTraits", "TableTraitsUtils", "Test", "TextParse"]
 git-tree-sha1 = "7f38660b77f759d40f3f272d69aae0a8da0b7695"
@@ -300,6 +306,12 @@ deps = ["Compat", "Distributions", "FastGaussQuadrature", "SpecialFunctions", "T
 git-tree-sha1 = "2b43117ce510ebc0e49bf31d71969a807148ea49"
 uuid = "2fe49d83-0758-5602-8f54-1f90ad0d522b"
 version = "1.0.2"
+
+[[EzXML]]
+deps = ["BinaryProvider", "Libdl", "Printf", "Test"]
+git-tree-sha1 = "5623d1486bfaadd815f5c4ca501adda02b5337f1"
+uuid = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
+version = "0.9.0"
 
 [[FFTW]]
 deps = ["AbstractFFTs", "BinaryProvider", "Compat", "Conda", "Libdl", "LinearAlgebra", "Reexport", "Test"]
@@ -570,10 +582,10 @@ uuid = "fdba3010-5040-5b88-9595-932c9decdf73"
 version = "0.7.7"
 
 [[MbedTLS]]
-deps = ["BinaryProvider", "Libdl", "Random", "Sockets", "Test"]
-git-tree-sha1 = "4b890362c0c2fdb14a575ce927f1f4eeac6dda9f"
+deps = ["BinaryProvider", "Dates", "Libdl", "Random", "Sockets", "Test"]
+git-tree-sha1 = "294100fb8907956b1afd9ce3294e085c2de5bd5e"
 uuid = "739be429-bea8-5141-9913-cc70e7f3736d"
-version = "0.6.4"
+version = "0.6.5"
 
 [[Measures]]
 deps = ["Test"]
@@ -589,6 +601,12 @@ version = "0.3.1"
 
 [[Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
+
+[[Mocking]]
+deps = ["Compat", "Dates"]
+git-tree-sha1 = "4bf69aaf823b119b034e091e16b18311aa191663"
+uuid = "78c3b35d-d492-501b-9361-3d52fe80e533"
+version = "0.5.7"
 
 [[NLSolversBase]]
 deps = ["Calculus", "DiffEqDiffTools", "DiffResults", "Distributed", "ForwardDiff", "LinearAlgebra", "Random", "SparseArrays", "Test"]
@@ -668,6 +686,12 @@ git-tree-sha1 = "40f540ec96e50c0b2b9efdb11b5e4d0c63f90923"
 uuid = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 version = "0.10.1"
 
+[[Parsers]]
+deps = ["Dates", "Mmap", "Test", "WeakRefStrings"]
+git-tree-sha1 = "1f4ab004d02b98ba8fd6a05faa7529fce7b4e066"
+uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+version = "0.2.10"
+
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -718,6 +742,10 @@ version = "0.4.0"
 deps = ["Unicode"]
 uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
+[[Profile]]
+deps = ["Printf"]
+uuid = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
+
 [[PyCall]]
 deps = ["Compat", "Conda", "MacroTools", "Statistics", "VersionParsing"]
 git-tree-sha1 = "ce4681263f41d98b3faf6107b28284bf8b866f5f"
@@ -753,6 +781,18 @@ deps = ["CSVFiles", "DataFrames", "DataValues", "DataVoyager", "ExcelFiles", "Fe
 git-tree-sha1 = "a824e7abefdd7a8f368a8debed0bf36c81375d03"
 uuid = "612083be-0b0f-5412-89c1-4e7c75506a58"
 version = "0.1.0"
+
+[[RData]]
+deps = ["CategoricalArrays", "CodecZlib", "DataFrames", "Dates", "FileIO", "Missings", "Test", "TimeZones"]
+git-tree-sha1 = "8f3b644f4ebce291431846f5532272b0864c757c"
+uuid = "df47a6cb-8c03-5eed-afd8-b6050d6c41da"
+version = "0.5.0"
+
+[[RDatasets]]
+deps = ["CSV", "CodecZlib", "DataFrames", "FileIO", "Printf", "RData", "Reexport", "Test"]
+git-tree-sha1 = "4d93a52b94397bf0a9477d04e7a151a688672695"
+uuid = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
+version = "0.6.1"
 
 [[REPL]]
 deps = ["InteractiveUtils", "Markdown", "Sockets"]
@@ -958,6 +998,12 @@ deps = ["CodecZlib", "DataStructures", "Dates", "DoubleFloats", "Mmap", "Nullabl
 git-tree-sha1 = "383329847d816310d63df8e220d1be0b68e0cecc"
 uuid = "e0df1984-e451-5cb5-8b61-797a481e67e3"
 version = "0.6.1"
+
+[[TimeZones]]
+deps = ["Compat", "EzXML", "Mocking", "Nullables"]
+git-tree-sha1 = "4a4ab113913e19ad62b67e6c5c056509eac00c19"
+uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
+version = "0.8.2"
 
 [[TranscodingStreams]]
 deps = ["Pkg", "Random", "Test"]
