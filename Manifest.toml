@@ -297,9 +297,9 @@ version = "0.3.4"
 
 [[Electron]]
 deps = ["Base64", "JSON", "Sockets", "Test", "URIParser"]
-git-tree-sha1 = "688421eb49f14c1e6af8b0211fe35c56bda5297a"
+git-tree-sha1 = "edf977fbc9aadeb330084732d3b8c279ca8af787"
 uuid = "a1bb12fb-d4d1-54b4-b10a-ee7951ef7ad3"
-version = "0.2.0"
+version = "0.3.0"
 
 [[ExcelFiles]]
 deps = ["DataValues", "Dates", "ExcelReaders", "FileIO", "IterableTables", "IteratorInterfaceExtensions", "Printf", "TableShowUtils", "TableTraits", "TableTraitsUtils", "Test"]
