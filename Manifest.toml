@@ -28,6 +28,11 @@ git-tree-sha1 = "d3c36842140057276f6f8348afa08f0f7dae2d1e"
 uuid = "69666777-d1a9-59fb-9406-91d4454c9d45"
 version = "0.2.3"
 
+[[AutoHashEquals]]
+git-tree-sha1 = "45bb6705d93be619b81451bb2006b7ee5d4e4453"
+uuid = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
+version = "0.2.0"
+
 [[AxisAlgorithms]]
 deps = ["Compat", "WoodburyMatrices"]
 git-tree-sha1 = "99dabbe853e4f641ab21a676131f2cf9fb29937e"
@@ -36,9 +41,9 @@ version = "0.3.0"
 
 [[BandedMatrices]]
 deps = ["FillArrays", "LazyArrays", "LinearAlgebra", "Random", "SparseArrays", "Test"]
-git-tree-sha1 = "89f5c8110f784cacec900e996e81c1389ddd62a3"
+git-tree-sha1 = "913325add4b83f380e5fb83df9e6cfad36025bc9"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "0.7.0"
+version = "0.7.1"
 
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
@@ -285,9 +290,9 @@ version = "0.3.4"
 
 [[Electron]]
 deps = ["Base64", "JSON", "Sockets", "Test", "URIParser"]
-git-tree-sha1 = "688421eb49f14c1e6af8b0211fe35c56bda5297a"
+git-tree-sha1 = "edf977fbc9aadeb330084732d3b8c279ca8af787"
 uuid = "a1bb12fb-d4d1-54b4-b10a-ee7951ef7ad3"
-version = "0.2.0"
+version = "0.3.0"
 
 [[ExcelFiles]]
 deps = ["DataValues", "Dates", "ExcelReaders", "FileIO", "IterableTables", "IteratorInterfaceExtensions", "Printf", "TableShowUtils", "TableTraits", "TableTraitsUtils", "Test"]
@@ -494,9 +499,9 @@ version = "0.18.4"
 
 [[KernelDensity]]
 deps = ["Distributions", "FFTW", "Interpolations", "Optim", "StatsBase", "Test"]
-git-tree-sha1 = "45265e5cc77bff050db33bdcb2d34e00630abfd6"
+git-tree-sha1 = "c1048817fe5711f699abc8fabd47b1ac6ba4db04"
 uuid = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
-version = "0.5.0"
+version = "0.5.1"
 
 [[LaTeXStrings]]
 deps = ["Compat"]
@@ -506,9 +511,9 @@ version = "1.0.3"
 
 [[LazyArrays]]
 deps = ["FillArrays", "LinearAlgebra", "StaticArrays", "Test"]
-git-tree-sha1 = "44fcd4f946a1e4cc302568eb6c7aba2bfc161911"
+git-tree-sha1 = "7b15209c5de4b06a67ad601086b93acbe786683a"
 uuid = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-version = "0.3.1"
+version = "0.3.2"
 
 [[LeastSquaresOptim]]
 deps = ["DiffEqDiffTools", "ForwardDiff", "LinearAlgebra", "Optim", "Printf", "SparseArrays", "Statistics", "SuiteSparse", "Test"]
@@ -608,6 +613,12 @@ git-tree-sha1 = "4bf69aaf823b119b034e091e16b18311aa191663"
 uuid = "78c3b35d-d492-501b-9361-3d52fe80e533"
 version = "0.5.7"
 
+[[Mustache]]
+deps = ["Tables", "Test"]
+git-tree-sha1 = "1cee2f530502aa2357724e7b19af3239b2e7f6b7"
+uuid = "ffc61752-8dc7-55ee-8c37-f3e9cdd09e70"
+version = "0.5.5"
+
 [[NLSolversBase]]
 deps = ["Calculus", "DiffEqDiffTools", "DiffResults", "Distributed", "ForwardDiff", "LinearAlgebra", "Random", "SparseArrays", "Test"]
 git-tree-sha1 = "ebfb2e96970151753575b9c4d31d47e5ae8382a5"
@@ -695,6 +706,12 @@ version = "0.2.10"
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+[[PkgTemplates]]
+deps = ["AutoHashEquals", "Dates", "Distributed", "InteractiveUtils", "LibGit2", "Mustache", "Pkg", "REPL", "Test", "URIParser"]
+git-tree-sha1 = "84a29b01a04d41b7dd4bcf7267b114776f7008c5"
+uuid = "14b8a8f1-9102-5b29-a752-f990bacb7fe1"
+version = "0.3.0"
 
 [[PlotThemes]]
 deps = ["PlotUtils", "Requires", "Test"]
