@@ -296,9 +296,9 @@ version = "0.20.0"
 
 [[DoubleFloats]]
 deps = ["AccurateArithmetic", "LinearAlgebra", "Polynomials", "Random", "Test"]
-git-tree-sha1 = "fee833bbbcd394cb1d8f51a5de28f35520053d6a"
+git-tree-sha1 = "edd568c7ec8b26b058f13c1d2aed65f3bb8bcefa"
 uuid = "497a8b3b-efae-58df-a0af-a86822472b78"
-version = "0.3.4"
+version = "0.3.5"
 
 [[Electron]]
 deps = ["Base64", "JSON", "Sockets", "Test", "URIParser"]
@@ -533,6 +533,12 @@ git-tree-sha1 = "7ab9b8788cfab2bdde22adf9004bda7ad9954b6c"
 uuid = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 version = "1.0.3"
 
+[[Latexify]]
+deps = ["InteractiveUtils", "LaTeXStrings", "MacroTools", "Markdown", "Requires", "Test"]
+git-tree-sha1 = "6ae4eb479263c6d748033fdc9e9f1d09a0a21640"
+uuid = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+version = "0.5.1"
+
 [[LazyArrays]]
 deps = ["FillArrays", "LinearAlgebra", "StaticArrays", "Test"]
 git-tree-sha1 = "7b15209c5de4b06a67ad601086b93acbe786683a"
@@ -612,9 +618,9 @@ version = "0.7.7"
 
 [[MbedTLS]]
 deps = ["BinaryProvider", "Dates", "Libdl", "Random", "Sockets", "Test"]
-git-tree-sha1 = "294100fb8907956b1afd9ce3294e085c2de5bd5e"
+git-tree-sha1 = "c93a87da4081a3de781f34e0540175795a2ce83d"
 uuid = "739be429-bea8-5141-9913-cc70e7f3736d"
-version = "0.6.5"
+version = "0.6.6"
 
 [[Measures]]
 deps = ["Test"]
@@ -624,9 +630,9 @@ version = "0.3.0"
 
 [[Media]]
 deps = ["MacroTools", "Test"]
-git-tree-sha1 = "9f390271c9a43dcbe908a10b5b9632cf58cbab5b"
+git-tree-sha1 = "75a54abd10709c01f1b86b84ec225d26e840ed58"
 uuid = "e89f7d12-3494-54d1-8411-f7d8b9ae1f27"
-version = "0.4.1"
+version = "0.5.0"
 
 [[Missings]]
 deps = ["Dates", "InteractiveUtils", "SparseArrays", "Test"]
@@ -645,9 +651,9 @@ version = "0.5.7"
 
 [[Mustache]]
 deps = ["Tables", "Test"]
-git-tree-sha1 = "1cee2f530502aa2357724e7b19af3239b2e7f6b7"
+git-tree-sha1 = "a9805dc9d2ad021c30acef7969a501e8e0f7be8c"
 uuid = "ffc61752-8dc7-55ee-8c37-f3e9cdd09e70"
-version = "0.5.5"
+version = "0.5.6"
 
 [[NLSolversBase]]
 deps = ["Calculus", "DiffEqDiffTools", "DiffResults", "Distributed", "ForwardDiff", "LinearAlgebra", "Random", "SparseArrays", "Test"]
@@ -735,9 +741,9 @@ version = "0.10.1"
 
 [[Parsers]]
 deps = ["Dates", "Mmap", "Test", "WeakRefStrings"]
-git-tree-sha1 = "1f4ab004d02b98ba8fd6a05faa7529fce7b4e066"
+git-tree-sha1 = "510eba237a97dfb73f8a0c16ed23f68e407885c1"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "0.2.10"
+version = "0.2.11"
 
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
@@ -1076,6 +1082,12 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[[VegaDatasets]]
+deps = ["DataStructures", "DataValues", "FilePaths", "IterableTables", "IteratorInterfaceExtensions", "JSON", "TableShowUtils", "TableTraits", "TableTraitsUtils", "Test", "TextParse"]
+git-tree-sha1 = "894794f267e13d4d440a3720e11ba212d5d28f47"
+uuid = "0ae4a718-28b7-58ec-9efb-cded64d6d5b4"
+version = "0.5.0"
 
 [[VegaLite]]
 deps = ["Cairo", "DataValues", "Dates", "FileIO", "FilePaths", "IterableTables", "IteratorInterfaceExtensions", "JSON", "MacroTools", "NodeJS", "REPL", "Random", "Requires", "Rsvg", "TableTraits", "Test", "URIParser"]
