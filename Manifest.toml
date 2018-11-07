@@ -132,6 +132,12 @@ git-tree-sha1 = "f60954495a7afcee4136f78d1d60350abd37a409"
 uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 version = "0.4.1"
 
+[[Cassette]]
+deps = ["InteractiveUtils", "LinearAlgebra", "Test"]
+git-tree-sha1 = "26fee677e5047978ad52d25f3f00fc86cecd1297"
+uuid = "7057c7e9-c182-5462-911a-8362d720325c"
+version = "0.1.2"
+
 [[CategoricalArrays]]
 deps = ["Compat", "Future", "JSON", "Missings", "Printf", "Reexport"]
 git-tree-sha1 = "6362c49130b5888f5628bc197ee5f17aec7d2a88"
@@ -651,9 +657,9 @@ version = "0.5.7"
 
 [[Mustache]]
 deps = ["Tables", "Test"]
-git-tree-sha1 = "a9805dc9d2ad021c30acef7969a501e8e0f7be8c"
+git-tree-sha1 = "536782063c50421b05d1369bbd09fced13624361"
 uuid = "ffc61752-8dc7-55ee-8c37-f3e9cdd09e70"
-version = "0.5.6"
+version = "0.5.7"
 
 [[NLSolversBase]]
 deps = ["Calculus", "DiffEqDiffTools", "DiffResults", "Distributed", "ForwardDiff", "LinearAlgebra", "Random", "SparseArrays", "Test"]
@@ -669,9 +675,9 @@ version = "0.5.1"
 
 [[NLsolve]]
 deps = ["DiffBase", "DiffEqDiffTools", "Distances", "ForwardDiff", "LineSearches", "LinearAlgebra", "NLSolversBase", "Printf", "Reexport", "SparseArrays", "Test"]
-git-tree-sha1 = "bb6234ec723459464ce9777cf6e72a501c8f70e7"
+git-tree-sha1 = "8c546de5949f527125ca781ace3784e5da52bbb7"
 uuid = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
-version = "2.1.0"
+version = "3.0.0"
 
 [[NNlib]]
 deps = ["Libdl", "LinearAlgebra", "MacroTools", "Requires", "Test"]
@@ -705,9 +711,9 @@ version = "0.0.8"
 
 [[Observables]]
 deps = ["Test"]
-git-tree-sha1 = "752ef9b9ff1a7a6d764aee6be60cf0a5be7a21b1"
+git-tree-sha1 = "dc02cec22747d1d10d9f70d8a1c03432b5bfbcd0"
 uuid = "510215fc-4207-5dde-b226-833fc4488ee2"
-version = "0.2.2"
+version = "0.2.3"
 
 [[OffsetArrays]]
 deps = ["DelimitedFiles", "Test"]
@@ -804,6 +810,12 @@ uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 [[Profile]]
 deps = ["Printf"]
 uuid = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
+
+[[ProgressMeter]]
+deps = ["Distributed", "Printf", "Random", "Test"]
+git-tree-sha1 = "5b55c2c974084eab2689ec0d1d5245561b22aeb0"
+uuid = "92933f4c-e287-5a05-a399-4b506db050ca"
+version = "0.6.1"
 
 [[PyCall]]
 deps = ["Compat", "Conda", "MacroTools", "Statistics", "VersionParsing"]
@@ -1063,6 +1075,12 @@ deps = ["Compat", "EzXML", "Mocking", "Nullables"]
 git-tree-sha1 = "4a4ab113913e19ad62b67e6c5c056509eac00c19"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 version = "0.8.2"
+
+[[Traceur]]
+deps = ["Cassette", "InteractiveUtils", "Logging", "MacroTools", "Test"]
+git-tree-sha1 = "d46ea4a2575f896e90c8a4b52ce2841e6db7d059"
+uuid = "37b6cedf-1f77-55f8-9503-c64b63398394"
+version = "0.2.0"
 
 [[TranscodingStreams]]
 deps = ["Pkg", "Random", "Test"]
